@@ -1,0 +1,51 @@
+body {
+  background-color: paleturquoise;
+
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.add {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task {
+  max-width: 400px;
+  margin: auto;
+
+}
+
+.task-item {
+  list-style: none;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.delete {
+  background-color: #f44336;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
